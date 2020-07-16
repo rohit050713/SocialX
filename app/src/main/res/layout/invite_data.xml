@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearlayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/dialog_gradient"
+        android:paddingStart="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+
+        >
+<com.mikhaellopez.circularimageview.CircularImageView
+   android:layout_marginTop="@dimen/_3sdp"
+    android:id="@+id/iv_invite_main_img"
+    android:layout_width="@dimen/_30sdp"
+    android:layout_height="@dimen/_30sdp"
+    android:src="@mipmap/invite_data_circular_image"
+    android:layout_marginStart="@dimen/_15sdp"
+    app:civ_border="true"
+    app:civ_border_color="@color/white"
+    app:civ_border_width="@dimen/_1sdp"
+    app:layout_constraintStart_toStartOf="@+id/linearlayout1"
+    app:layout_constraintTop_toTopOf="@+id/linearlayout1"
+    app:layout_constraintBottom_toBottomOf="@+id/linearlayout1"
+    />
+
+    <TextView
+        android:layout_marginStart="@dimen/_25sdp"
+        android:id="@+id/tv_invite_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/air_hostess"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/proxima_nova_reg"
+        android:textSize="@dimen/_10ssp"
+        app:layout_constraintStart_toEndOf="@+id/iv_invite_main_img"
+        app:layout_constraintTop_toTopOf="@+id/linearlayout1"
+        app:layout_constraintBottom_toBottomOf="@+id/linearlayout1"
+
+        />
+
+        <CheckBox
+            android:id="@+id/invite_checkbox"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/checkbox_state"
+            android:buttonTint="@android:color/transparent"
+            android:gravity="end"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            app:layout_constraintBottom_toBottomOf="@+id/linearlayout1"
+            app:layout_constraintEnd_toEndOf="@+id/linearlayout1"
+            app:layout_constraintHorizontal_bias="0.871"
+            app:layout_constraintStart_toEndOf="@+id/tv_invite_title"
+            app:layout_constraintTop_toTopOf="@+id/linearlayout1"
+            app:layout_constraintVertical_bias="0.769" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

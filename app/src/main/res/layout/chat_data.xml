@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_60sdp"
+    android:background="@mipmap/myrewards_data_bg"
+    android:layout_marginBottom="@dimen/_5sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp"
+        android:layout_gravity="center_vertical"
+        >
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/iv_chat_mainimg"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@mipmap/muted_account_img1"
+            android:layout_marginStart="@dimen/_5sdp"
+            app:civ_border="true"
+            app:civ_border_width="@dimen/_1sdp"
+            app:civ_border_color="@color/orangish"
+            android:layout_gravity="center_vertical"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_chat_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_2sdp"
+                    android:text="Air hostess group"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12ssp"
+                    android:fontFamily="@font/airbnbcerealbook"
+                    />
+                <TextView
+                    android:id="@+id/tv_chat_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1h"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="#aeaeae"
+                    android:layout_gravity="center_vertical|end"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_gravity="center_vertical"
+                    android:src="@mipmap/chat_data_check"/>
+            <TextView
+                android:id="@+id/tv_chat_subtitle"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="John doe comment on your feed"
+                android:textSize="@dimen/_10ssp"
+                android:layout_weight="1"
+                android:fontFamily="@font/airbnbcerealbook"
+                android:textColor="#aeaeae"/>
+                <TextView
+                    android:id="@+id/tv_chat_number"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textSize="@dimen/_8ssp"
+                    android:textColor="@color/white"
+                    android:background="@mipmap/chat_data_circle"/>
+            </LinearLayout>
+
+        </LinearLayout>
+</LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_10sdp"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_130sdp"
+    android:orientation="vertical"
+    android:background="@drawable/alertdialogbox"
+    android:padding="@dimen/_20sdp"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_account_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_15ssp"
+        android:fontFamily="@font/airbnbcerealmedium"
+        />
+    <View
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#d1d1d1"
+
+        />
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_delete_account_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="@font/airbnbcerealbook"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:layout_marginEnd="@dimen/_15sdp"
+            />
+        <TextView
+            android:id="@+id/tv_delete_account_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="@font/airbnbcerealbook"
+            android:layout_gravity="end"
+            android:gravity="end"/>
+    </LinearLayout>
+</LinearLayout>
+    </FrameLayout>
+</LinearLayout>

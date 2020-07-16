@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_60sdp"
+    android:elevation="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    android:background="@mipmap/myrewards_data_bg"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp"
+        android:gravity="center_vertical"
+        >
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/iv_mainimg"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@mipmap/my_rewards_data__holi_dhanaka"
+            android:layout_marginStart="@dimen/_10sdp"
+            app:civ_border="true"
+            app:civ_border_width="@dimen/_1sdp"
+            app:civ_border_color="@color/image_boder"
+            android:layout_gravity="center_vertical"
+            />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:text="Holi Dhamaka"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="@font/airbnbcerealbook"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="07-03-2020"
+                android:textSize="@dimen/_8ssp"
+                android:fontFamily="@font/airbnbcerealbook"
+                android:textColor="@color/light_grey"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:text="01:30 PM"
+                android:textSize="@dimen/_8ssp"
+                android:fontFamily="@font/airbnbcerealbook"
+                android:textColor="@color/light_grey"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginStart="@dimen/_70sdp"
+
+
+        >
+
+        <ImageView
+            android:id="@+id/iv_rewards_point"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@mipmap/my_rewards_data_trophy"
+            android:layout_gravity="center_vertical"
+
+            />
+        <TextView
+            android:id="@+id/rewards_point"
+            android:layout_width="@dimen/_15sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:text="1"
+            android:textColor="@color/white"
+            android:background="@mipmap/my_rewards_data_ellipse"
+            android:textSize="@dimen/_8ssp"
+            android:layout_gravity="top|right"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:gravity="center"
+            />
+    </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

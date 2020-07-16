@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        >
+
+        <TextView
+            android:id="@+id/tv_community"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_90sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Ballons"
+            android:background="@mipmap/community_data_white_shadow_rectangle"
+            android:layout_gravity="bottom"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:gravity="bottom"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="#242424"
+            android:fontFamily="@font/airbnbcerealmedium"
+            android:elevation="@dimen/_5sdp"
+            />
+        <ImageView
+            android:id="@+id/iv_community_image"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:src="@mipmap/community_data_balloons"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:elevation="@dimen/_5sdp"
+            />
+    </FrameLayout>
+
+</LinearLayout>

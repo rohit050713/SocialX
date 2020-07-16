@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#edebee"
+    tools:context=".activity.Event">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:orientation="horizontal"
+        android:background="@mipmap/aboutme_orange_toolbar_rectangle"
+        android:padding="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        >
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="@dimen/_240sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            app:queryHint="@string/search_for"
+            app:iconifiedByDefault="false"
+            android:theme="@style/SearchViewTheme"
+            android:layout_weight="1"
+            app:searchIcon="@drawable/search_icon"
+            android:background="@mipmap/community_search_bg"/>
+        <ImageView
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:src="@mipmap/community_search_cross"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp"
+        android:orientation="vertical"
+        android:background="@mipmap/mid_content_white_rectangle"
+        android:padding="@dimen/_10sdp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/conference"
+            android:textSize="@dimen/_19ssp"
+            android:textColor="@color/orangish"
+            android:fontFamily="@font/airbnbcerealmedium"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/event_recycler1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/community_data"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@mipmap/mid_content_white_rectangle"
+        android:padding="@dimen/_10sdp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sunburn"
+            android:textSize="@dimen/_19ssp"
+            android:textColor="@color/orangish"
+            android:fontFamily="@font/airbnbcerealmedium"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/event_recycler2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/community_data"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</layout>

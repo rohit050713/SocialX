@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#edebee"
+    tools:context=".activity.Report_problem">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:background="@mipmap/aboutme_orange_toolbar_rectangle"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/iv_back_report_prblm"
+            android:layout_width="@dimen/_16sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/aboutme_left_arrow"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/report_prblm"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_16ssp"
+            android:fontFamily="@font/airbnbcerealmedium"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:background="@mipmap/mid_content_white_rectangle"
+        >
+        <FrameLayout
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_170sdp"
+            android:background="@mipmap/report_grey_rectangle">
+        <ImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_gravity="center"
+            android:src="@mipmap/report_photo_of_a_landscape"/>
+        </FrameLayout>
+        <TextView
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/write_what"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/airbnbcerealbook"/>
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_100sdp"
+            android:paddingStart="@dimen/_30sdp"
+            android:paddingEnd="@dimen/_30sdp"
+            android:paddingTop="@dimen/_15sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:background="@mipmap/community_data_white_shadow_rectangle"
+
+            >
+
+        <EditText
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/_2sdp"
+            android:textColorHint="#80000000"
+            android:inputType="textMultiLine"
+            android:gravity="left"
+            android:maxLength="130"
+            android:fontFamily="@font/airbnbcerealbook"
+            android:hint="@string/report_content"
+            android:textSize="@dimen/_10ssp"/>
+        </ScrollView>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_report_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_65sdp"
+        android:background="@mipmap/filter_rectangle_bottom_orange"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16ssp"
+        android:fontFamily="@font/airbnbcerealbold"
+        android:gravity="center"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>
+</layout>

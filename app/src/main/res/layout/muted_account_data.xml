@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@mipmap/myrewards_data_bg"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_60sdp"
+    android:elevation="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp"
+        android:gravity="center_vertical"
+        >
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/iv_mainimg_muted_account"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:src="@mipmap/muted_account_img1"
+            android:layout_marginStart="@dimen/_10sdp"
+            app:civ_border="true"
+            app:civ_border_width="@dimen/_1sdp"
+            android:layout_gravity="center_vertical"
+            app:civ_border_color="@color/black"
+            />
+
+        <TextView
+                android:layout_marginStart="@dimen/_10sdp"
+                android:id="@+id/tv_title_muted_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:text="Sophie"
+                android:textColor="#242424"
+                android:textSize="@dimen/_15ssp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/airbnbcerealbook"
+            android:layout_weight="1"
+                />
+        <TextView
+            android:id="@+id/tv2_muted_account"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_27sdp"
+            android:text="Unmute"
+            android:background="@mipmap/muted_account_button_bg"
+            android:gravity="center"
+            android:textColor="@color/light_grey"
+            android:textSize="@dimen/_10ssp"
+            android:fontFamily="@font/airbnbcerealbook"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="@dimen/_10sdp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

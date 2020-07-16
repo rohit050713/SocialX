@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">SocialX</string>
+
+    //about us text
+    <string name="about_us">About Us</string>
+    <string name="about_us_text">
+    Diese Website verwendet Cookies von Google, um Dienste anzubieten und Zugriffe zu analysieren.Deine IP-Adresse und dein User-Agent werden zusammen mit Messwerten zur Leistung undSicherheit für Google freigegeben. So können Nutzungsstatistiken generiert, Missbrauchsfälle erkannt und behoben und die Qualität des Dienstes gewährleistet werden.
+        Diese Website verwendet Cookies von Google, um Dienste anzubieten und Zugriffe zu analysieren.Deine IP-Adresse und dein User-Agent werden zusammen mit Messwerten zur Leistung undSicherheit für Google freigegeben. So können Nutzungsstatistiken generiert, Missbrauchsfälle erkannt und behoben und die Qualität des Dienstes gewährleistet werden.
+Diese Website verwendet Cookies von Google, um Dienste anzubieten und Zugriffe zu analysieren. Diese Website verwendet Cookies von Google, um Dienste anzubieten und Zugriffe zu analysieren  Diese Website verwendet Cookies von Google, um Dienste anzubieten Diese Website verwendet Cookies von Google, um Dienste anzubieten und Zugriffe zu analysieren.
+        Diese Website verwendet Cookies von Google, um Dienste anzubieten und Zugriffe zu analysieren  Diese Website verwendet Cookies von Google, um Dienste anzubieten
+    </string>
+
+    //about me
+    <string name="about_me">About Me</string>
+    //terms
+    <string name="terms">Terms &amp; Conditions</string>
+    //logout_alert_box
+    <string name="logout">Logout</string>
+    <string name="are_you_sure">"Are you sure you want \n to logout ?"</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    //change password
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="cnf_password">Confirm Password</string>
+    <string name="update">Update</string>
+
+    //my rewards
+    <string name="my_reward">My Rewards</string>
+
+    <string-array name="title">
+        <item>Holi Dhamaka</item>
+        <item>Holi Dhamaka</item>
+        <item>Holi Dhamaka</item>
+        <item>Holi Dhamaka</item>
+
+    </string-array>
+    <string-array name="date">
+        <item>01-11-2020</item>
+        <item>01-11-2020</item>
+        <item>01-11-2020</item>
+        <item>01-11-2020</item>
+
+    </string-array>
+    <string-array name="time">
+        <item>10:10 PM</item>
+        <item>10:10 PM</item>
+        <item>10:10 PM</item>
+        <item>10:10 PM</item>
+
+    </string-array>
+    <string-array name="point">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+
+    </string-array>
+
+    //invite
+    <string-array name="invite_title">
+        <item>Air Hostess Group</item>
+        <item>Air Hostess Group</item>
+        <item>Air Hostess Group</item>
+        <item>Air Hostess Group</item>
+        <item>Air Hostess Group</item>
+        <item>Air Hostess Group</item>
+        <item>Air Hostess Group</item>
+
+    </string-array>
+    <string name="selct_all">Select All</string>
+    <string name="send">Send</string>
+    <string name="air_hostess">Air Hostess Group</string>
+
+    //community filter
+    <string name="community_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore </string>
+
+    // filter
+    <string name="filter">Filter</string>
+    <string name="reset">Reset</string>
+    <string name="apply">Apply</string>
+    <string name="content">Category</string>
+    <string name="nature">Nature</string>
+    <string name="sport">Sports</string>
+    <string name="fashion">Fashion</string>
+    <string name="business">Business</string>
+    <string name="animal">Animals</string>
+    <string name="distance">Location &amp; Distance</string>
+    <string name="current">My Current location</string>
+    <string name="max">Maximum Distance</string>
+    <string name="mile">1 Mile</string>
+    <string name="event">Event time</string>
+    <string name="today">Today</string>
+    <string name="this_week">This week</string>
+    <string name="this_month">This Month</string>
+    <string name="this_year">This Year</string>
+
+    // community search
+    <string name="gaming">Gaming</string>
+    <string name="music">Music</string>
+
+    //contact us
+    <string name="contact_us">Contact Us</string>
+    //delete account
+    <string name="delete_account_title">"Are you sure you want to\ndelete your account?"</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+    //event
+    <string name="search_for">Search for feeds, events &amp; communities</string>
+    <string name="conference">Conference Meet up</string>
+    <string name="sunburn">Sunburn</string>
+
+    //help
+    <string name="help">Help</string>
+    <string name="report_prblm">Report a problem</string>
+
+    //privacy
+    <string name="privacy">Privacy</string>
+    <string name="muted_account">Muted Account</string>
+    <string name="blocked_account">Blocked Account</string>
+
+    //Activities
+    <string name="activities">Activities</string>
+
+    //report
+    <string name="submit">Submit</string>
+    <string name="write_what">"Write what's Wrong"</string>
+    <string name="report_content">    Diese Website verwendet Cookies von Google, um Dienste anzubieten und Zugriffe zu analysieren.Deine
+      IP-Adresse und dein User-Agent werden zusammen mit Messwerten.
+</string>
+
+    // chat
+    <string name="chat">Chats</string>
+
+    // edit event
+    <string name="edit_event">Edit Event</string>
+    <string name="event_name">Event Name</string>
+    <string name="save">Save</string>
+    <string name="music_event">Music Event</string>
+    <string name="event_type">Event Type</string>
+    <string name="Public">Public</string>
+    <string name="Private">Private</string>
+    <string name="event_category">Event Category</string>
+    <string name="event_description">Event Description</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="event_date">Event Date</string>
+    <string name="venue">Venue</string>
+    <string name="venue_content">18b Street | Next The He Karama Fish Market
+Back Side Of NBD  Bank, Dubai, United Arab
+Emirates</string>
+
+</resources>
